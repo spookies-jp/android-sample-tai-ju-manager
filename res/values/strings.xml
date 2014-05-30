@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">体重管理</string>
+    <string name="tx_show">show</string>
+    <string name="tx_record">record</string>
+    <string name="tx_setting">setting</string>
+</resources>

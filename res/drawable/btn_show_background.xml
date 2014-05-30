@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item  
+android:state_enabled="false"  
+android:drawable="@drawable/top_button_graph_b" />
+<item  
+android:drawable="@drawable/top_button_graph" />  
+  
+</selector>

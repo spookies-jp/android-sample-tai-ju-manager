@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/top_bg"
+    >
+<View  
+    android:layout_width="0px"
+    android:layout_height="0px"
+    android:layout_weight="377"
+    />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="366"
+    >
+    <View  
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_weight="56"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_weight="368"
+        >
+        <Button  
+            android:id="@+id/btn_show"
+            android:background="@drawable/btn_show_background"
+            android:layout_width="fill_parent" 
+            android:layout_height="0px" 
+            android:layout_weight="106"
+            android:onClick="onClickShow"
+            android:enabled="false"
+            />
+        <View  
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight="24"
+            />
+        <Button 
+            android:id="@+id/btn_record"
+            android:background="@drawable/btn_record_background"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="106" 
+            android:onClick="onClickRecord" 
+            android:enabled="false"
+            />
+        <View  
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight="24"
+            />
+        <View  
+            android:background="@drawable/top_button_setup"
+            android:layout_width="fill_parent" 
+            android:layout_height="0px" 
+            android:layout_weight="106"
+            android:onClick="onClickSetting"
+            />
+    </LinearLayout>
+    <View  
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_weight="56"
+        />
+</LinearLayout>
+<View  
+    android:layout_width="0px"
+    android:layout_height="0px"
+    android:layout_weight="57"
+    />
+</LinearLayout>

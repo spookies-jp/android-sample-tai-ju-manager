@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/graph_bg"
+    >
+<View  
+    android:layout_width="0px"
+    android:layout_height="0px"
+    android:layout_weight="279"
+    />
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="42"
+    android:background="@drawable/graph_day"
+    />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="416"
+    >
+    <jp.co.spookies.android.taijumanager.DivisionView
+        android:id="@+id/div_view"
+        android:layout_width="50px"
+        android:layout_height="fill_parent"
+        />
+    <jp.co.spookies.android.taijumanager.RightHorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <LinearLayout
+            android:id="@+id/graph_view"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            />
+    </jp.co.spookies.android.taijumanager.RightHorizontalScrollView>
+</LinearLayout>
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="10"
+    android:background="@drawable/graph_area"
+    />
+<View  
+    android:layout_width="0px"
+    android:layout_height="0px"
+    android:layout_weight="53"
+    />
+</LinearLayout>
